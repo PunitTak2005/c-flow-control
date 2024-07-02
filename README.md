@@ -1,2 +1,2 @@
-# flow of control in c
-to understand flow of control in c
+# Pattern programs using loops
+to understand Pattern programs using loops in c

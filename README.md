@@ -1,2 +1,2 @@
-# c-flow-control
-to understand flow of control in c
+# if-else-statement
+to understand flow of control in c with if else statements

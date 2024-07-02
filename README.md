@@ -1,2 +1,2 @@
-# flow of control in c
-to understand flow of control in c
+Introduction to Loops
+to understand Loops in c

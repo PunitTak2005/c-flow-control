@@ -1,0 +1,5 @@
+
+
+while Loop is an Entry Controlled Loop or we can say repetition control structure.
+The while loop is used in situations where we do not know the exact number of iterations of loop beforehand.
+The loop execution is terminated on the basic of the test condition.

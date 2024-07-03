@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main(int argc, char* argv[])
+{printf("enter number of rows");
+    int a=0;
+    scanf("%d",&a);
+    int i=0;
+    char* asterisk=malloc(sizeof(char)*a);
+    memset(asterisk,'*',a*sizeof(char));
+    while(i<a)
+    {
+        if(i<=a/2)
+            printf("%*.*s\n",a-i,a-2*i,asterisk);
+        else
+            printf("%*.*s\n",i+1,2*(i+1)-a,asterisk);
+        i++;
+    }
+    free(asterisk);
+    return 0;
+}

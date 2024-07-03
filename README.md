@@ -1,2 +1,2 @@
-# flow of control in c
-to understand c-flow-control
+# go to statement
+to understand go to statement

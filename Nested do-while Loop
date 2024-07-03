@@ -1,0 +1,17 @@
+A do-while loop within another do-while loop is called Nested do-while loop.
+
+ 
+
+Syntax :
+
+do {
+
+  do {
+
+    // body of inner do-while-loop
+
+  }while (condition);
+
+  // body of outer do-while-loop
+
+}while (condition);

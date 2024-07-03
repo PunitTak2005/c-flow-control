@@ -1,0 +1,29 @@
+Yes, the break statement can be used in nested loops. When break is encountered in a nested loop, it will only exit the innermost loop it is contained in.
+
+For example:
+
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        if (j == 1) {
+            break; // exits the inner loop (j-loop) only
+        }
+        printf("%d ", j);
+    }
+    printf("\n");
+}
+
+In this example, when j is equal to 1, the inner loop will exit, but the outer loop (i-loop) will continue running.
+
+If you want to exit both loops, you can use a variable as a flag to indicate whether the outer loop should continue or not:
+
+int exit_outer = 0;
+for (int i = 0; i < 3 && !exit_outer; i++) {
+    for (int j = 0; j < 3; j++) {
+        if (j == 1) {
+            exit_outer = 1; // set flag to exit outer loop
+            break; // exits the inner loop
+        }
+        printf("%d ", j);
+    }
+    printf("\n");
+}

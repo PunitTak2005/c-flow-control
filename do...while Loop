@@ -1,0 +1,16 @@
+Like while loop the do-while loop execution is also terminated on the basis of test condition.
+The do-while loop is exit-controlled loop.
+In do-while loop the loop body will execute at least once irrespective of test condition.
+ 
+
+Syntax :
+
+ 
+
+do {
+
+// body of loop;
+
+}
+
+while (condition);

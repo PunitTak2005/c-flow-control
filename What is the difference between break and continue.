@@ -11,6 +11,4 @@ continue:
 To illustrate the difference:
 
 - break is like saying "Stop the loop now and move on to the next task."
-- continue is like saying "Skip this iteration and move on to the next one."
-
-Let me know if you have any specific questions or scenarios you'd like me to help with!
+- continue is like saying "Skip this iteration and move on to the next one.

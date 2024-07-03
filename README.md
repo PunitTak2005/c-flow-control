@@ -46,6 +46,68 @@ If the condition evaluates to true, the code inside the while loop is executed.
 The condition is evaluated again.
 This process continues until the condition is false.
 When the condition evaluates to false, the loop terminates.
+
+ do...while Loop
+
+
+ Like while loop the do-while loop execution is also terminated on the basis of test condition.
+The do-while loop is exit-controlled loop.
+In do-while loop the loop body will execute at least once irrespective of test condition.
  
 
+Syntax :
+
+ 
+
+do {
+
+// body of loop;
+
+}
+
+while (condition);
+
+
+
+ How do-while loop works?
+
+The body of the loop is executed at first. Then the condition is evaluated.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+The condition is evaluated once again.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+This process continues until the condition evaluates to false. Then the loop terminates.
+
+
+Nested do-while Loop
+
+A do-while loop within another do-while loop is called Nested do-while loop.
+
+ 
+
+Syntax :
+
+do {
+
+  do {
+
+    // body of inner do-while-loop
+
+  }while (condition);
+
+  // body of outer do-while-loop
+
+}while (condition);
+
+
+Loop Control Statements
+
+These control statements change the execution of the loop from its normal execution. The loop control structures are –
+
+1. break statement – It is used to end the loop or switch statement and transfers execution to the statement immediately following the loop or switch.
+
+2. continue statement – It skip some statements according to the given condition.
+
+3. goto statement – It transfer control to the labeled statement.
+
+ 
  

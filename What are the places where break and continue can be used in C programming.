@@ -1,0 +1,32 @@
+In C programming, break and continue can be used in the following places:
+
+break:
+
+- Switch statements: to exit the switch block and transfer control to the statement after the switch statement.
+- Loops (while, for, do-while): to terminate the loop immediately and transfer control to the statement after the loop.
+- Nested loops: to exit the inner loop and continue with the outer loop.
+
+continue:
+
+- Loops (while, for, do-while): to skip the current iteration and move on to the next iteration.
+
+Note that break and continue can only be used within loops or switch statements. Using them outside of these contexts will result in a compilation error.
+
+Here's an example:
+
+for (int i = 0; i < 5; i++) {
+    if (i == 3) {
+        break; // exits the loop when i is 3
+    }
+    printf("%d ", i);
+}
+
+int j = 0;
+while (j < 5) {
+    if (j == 2) {
+        j++; // increment j to skip the current iteration
+        continue; // skips the current iteration and moves to the next one
+    }
+    printf("%d ", j);
+    j++;
+}

@@ -39,10 +39,7 @@ while(condition)
 
 }
 
- 
-
-while loop Flowchart
-How while loop works?
+ How while loop works?
 
 A while loop evaluates the condition.
 If the condition evaluates to true, the code inside the while loop is executed.

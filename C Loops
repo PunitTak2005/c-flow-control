@@ -1,0 +1,12 @@
+
+In computer programming, loops are used to repeat a block of code. Loops in Programming come into use when we need to repeatedly a block of statements.
+
+For example, let's say we want to show a message 100 times. Then instead of writing the print statement 100 times, we can use a loop.
+
+That was just a simple example; we can achieve much more efficiency and sophistication in our programs by making effective use of loops.
+
+In programming, a loop is a sequence of instructions that is repeated until a certain condition is reached.
+
+ 
+
+Types of Loops

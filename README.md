@@ -1,2 +1,2 @@
-# flow of control in c
-to understand c-flow-control
+# switch case
+to understand switch cases

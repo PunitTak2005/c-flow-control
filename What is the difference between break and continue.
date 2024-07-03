@@ -1,0 +1,16 @@
+In programming, break and continue are two keywords that control the flow of loops (such as for, while, or do-while loops).
+
+break:
+- Terminates the loop entirely and exits the loop immediately.
+- The program will continue executing the code after the loop.
+
+continue:
+- Skips the current iteration of the loop and moves on to the next iteration.
+- The loop will continue running, but the code inside the loop will be skipped for the current iteration.
+
+To illustrate the difference:
+
+- break is like saying "Stop the loop now and move on to the next task."
+- continue is like saying "Skip this iteration and move on to the next one."
+
+Let me know if you have any specific questions or scenarios you'd like me to help with!

@@ -1,0 +1,6 @@
+The body of the loop is executed at first. Then the condition is evaluated.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+The condition is evaluated once again.
+If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+This process continues until the condition evaluates to false. Then the loop terminates.
+Example : Do-while Loop
